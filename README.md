@@ -10,3 +10,15 @@ This is a companion repository for my [Kafka for Beginners](http://bit.ly/kafka-
 - ElasticSearch Consumer
 - Kafka Streams 101
 - Kafka Connect Example
+
+```
+cd kafka-basics
+mvn exec:java -Dexec.mainClass="kafka.tutorial1.ProducerDemo
+```
+
+or, since we updated the root pom.xml with configuration
+
+```
+cd kafka-basics
+mvn exec:java
+```
