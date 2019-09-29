@@ -29,13 +29,6 @@
                   </goals>
                 </execution>
               </executions>
-              <configuration>
-                <mainClass>kafka.tutorial1.ProducerDemo</mainClass>
-                <arguments>
-                  <argument>foo</argument>
-                  <argument>bar</argument>
-                </arguments>
-              </configuration>
             </plugin>
         </plugins>
     </build>

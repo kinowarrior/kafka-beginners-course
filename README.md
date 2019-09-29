@@ -13,12 +13,6 @@ This is a companion repository for my [Kafka for Beginners](http://bit.ly/kafka-
 
 ```
 cd kafka-basics
-mvn exec:java -Dexec.mainClass="kafka.tutorial1.ProducerDemo
-```
-
-or, since we updated the root pom.xml with configuration
-
-```
-cd kafka-basics
-mvn exec:java
+mvn exec:java -Dexec.mainClass="kafka.tutorial1.ProducerDemo"
+mvn exec:java -Dexec.mainClass="kafka.tutorial1.ProducerDemoWithCallback"
 ```
